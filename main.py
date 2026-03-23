@@ -5,7 +5,7 @@ import psycopg2
 app = FastAPI()
 
 # ¡IMPORTANTE! Reemplaza este texto por tu enlace de Neon
-DATABASE_URL = "Pega_Aqui_Tu_Enlace_De_Neon"
+DATABASE_URL = "postgresql://neondb_owner:npg_nCKYO6IXkz5i@ep-sweet-lake-am1iz8ot-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 def get_db_connection():
     return psycopg2.connect(DATABASE_URL)
