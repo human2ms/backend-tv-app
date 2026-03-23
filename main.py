@@ -11,7 +11,7 @@ app = FastAPI()
 # ================= CONFIGURACIÓN =================
 DATABASE_URL = "postgresql://neondb_owner:npg_nCKYO6IXkz5i@ep-sweet-lake-am1iz8ot-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 CORREO_APP = "soporte.tranki@gmail.com"
-PASSWORD_APP = "xdxy stza vijv hwjk"
+PASSWORD_APP = "xdxystzavijvhwjk"
 URL_SERVIDOR = "https://api-tv-mahum.onrender.com" # Cambia esto por tu enlace de Render
 # =================================================
 
